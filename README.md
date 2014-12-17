@@ -9,4 +9,4 @@ _This is a quick Java version of Fapi's online "The Incremental Game."_
 Play
 ----
 
-Simply download and run the JAR file for endless hours of fun!
+Simply download and run the JAR file for endless hours of fun! (Note: probably doesn't work)
