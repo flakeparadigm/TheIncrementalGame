@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">The Incremental Game</string>
+    <string name="title_text">The Incremental Game v0.1</string>
+    <string name="welcome_text">Welcome to The Incremental Game</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="increment">Increment</string>
+    <string name="auto_click_off">Auto Click OFF</string>
+    <string name="auto_click_on">Auto Click ON</string>
+    <string name="quit">Quit</string>
+    <string name="changelog_text">v0.1 : Initial release</string>
+
+    <string name="quit_message">Woah woah woah, what\'s that quit button doing there? You can\'t quit incremental games ! -1 point.</string>
+    <string name="quit_title">Quit?!</string>
+    <string name="ok">OK</string>
+
+</resources>
