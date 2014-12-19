@@ -19,3 +19,14 @@ Java App
 --------
 This is designed to run on the computer, using Java 1.8 from Oracle. Simply download the [JAR file](https://github.com/flakeparadigm/TheIncrementalGame/blob/master/java-app/TheIncrementalGame.jar?raw=true) on your computer and then run it! (Note: it may not run unless you launch it from the command line)
 *Latest Version: v0.5*
+
+Features
+---------
+The features by version apply to both the Android and desktop apps.
+```
+V0.5 : Secret prestige added
+V0.4 : Progress bar added
+V0.3 : Zlsa DLC added
+V0.2 : Auto click added
+V0.1 : Initial release (click to increment)
+```
