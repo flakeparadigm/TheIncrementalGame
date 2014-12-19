@@ -1,5 +1,7 @@
 TheIncrementalGame
 ==================
+![TheIncrementalGame](https://raw.githubusercontent.com/flakeparadigm/TheIncrementalGame/master/art/ic_launcher_tig.png)
+
 
 _This is a quick Java and Android version of Fapi's online "The Incremental Game."_
 
