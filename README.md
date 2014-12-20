@@ -12,7 +12,7 @@ _This is a quick Java and Android version of Fapi's online "The Incremental Game
 Android App
 -----------
 As a way to develop my android app development skills, I'm creating an android version of this game! I'm building it using the Android Studio, and making the source code available here. You're welcome to download the [APK file](https://github.com/flakeparadigm/TheIncrementalGame/blob/master/app/app-release.apk?raw=true) and install it on your phone!
-*Latest Version: v0.1*
+*Latest Version: v0.2*
 
 
 Java App
