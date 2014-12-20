@@ -43,12 +43,14 @@
 
             android:onClick="increment"/>
 
-        <!--<Button
+        <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
             android:text="@string/auto_click_off"
-            android:id="@+id/auto_button" />-->
+            android:id="@+id/auto_button"
+
+            android:onClick="autoIncrementToggle" />
     </LinearLayout>
 
     <com.flakeparadigm.theincrementalgame.SerifTextView
@@ -80,6 +82,7 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="15dp"
-        android:typeface="serif" />
+        android:typeface="serif"
+        android:gravity="center_horizontal" />
 
 </RelativeLayout>

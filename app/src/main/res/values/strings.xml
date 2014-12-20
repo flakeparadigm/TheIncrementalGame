@@ -10,7 +10,7 @@
     <string name="auto_click_off">Auto Click OFF</string>
     <string name="auto_click_on">Auto Click ON</string>
     <string name="quit">Quit</string>
-    <string name="changelog_text">v0.1 : Initial release</string>
+    <string name="changelog_text">v0.2 : Auto click added\nv0.1 : Initial release</string>
 
     <string name="quit_message">Woah woah woah, what\'s that quit button doing there? You can\'t quit incremental games ! -1 point.</string>
     <string name="quit_title">Quit?!</string>
