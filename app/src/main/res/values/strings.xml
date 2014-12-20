@@ -2,7 +2,7 @@
 <resources>
 
     <string name="app_name">The Incremental Game</string>
-    <string name="title_text">The Incremental Game v0.1</string>
+    <string name="title_text">The Incremental Game v0.2</string>
     <string name="welcome_text">Welcome to The Incremental Game</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
