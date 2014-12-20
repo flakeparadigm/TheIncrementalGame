@@ -9,6 +9,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 
 
@@ -16,7 +17,8 @@ public class MainActivity extends Activity {
 
     private int clickCount = 0;
     private int incrementFactor = 1;
-    private TextView countView;
+    private TextView countView, welcomeMessage;
+    private ProgressBar progress;
     private Button autoButton;
     private AlertDialog quitDialog;
 
@@ -30,9 +32,13 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // start counter
+        // start counter & progress bar
         countView = (TextView) findViewById(R.id.click_count);
+        progress = (ProgressBar) findViewById(R.id.progress_bar);
         updateCount();
+
+        // get subtitle view
+        welcomeMessage = (TextView) findViewById(R.id.subtitle_view);
 
         // create quit dialog
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
@@ -87,6 +93,15 @@ public class MainActivity extends Activity {
     public void increment(View view) {
         clickCount += incrementFactor;
         updateCount();
+
+        if( clickCount == 100 ) {
+            incrementFactor *= 2;
+            if( incrementFactor == 2 ) {
+                welcomeMessage.setText(R.string.zlsa_text);
+            } else {
+                welcomeMessage.setText(R.string.secret_prestige_text);
+            }
+        }
     }
     public void quitButton(View view) {
         quitDialog.show();
@@ -98,6 +113,15 @@ public class MainActivity extends Activity {
 
     private void updateCount() {
         countView.setText(""+clickCount);
+
+        int percent;
+        if( clickCount > 0 ) {
+            percent = (int) (Math.log(clickCount) * 20);
+        } else {
+            percent = 0;
+        }
+
+        progress.setProgress(percent);
     }
 
 }

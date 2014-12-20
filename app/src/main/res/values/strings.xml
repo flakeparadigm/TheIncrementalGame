@@ -1,19 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <!-- Default Texts -->
     <string name="app_name">The Incremental Game</string>
-    <string name="title_text">The Incremental Game v0.2</string>
+    <string name="title_text">The Incremental Game v0.5</string>
     <string name="welcome_text">Welcome to The Incremental Game</string>
-    <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string>
+    <string name="changelog_text">v0.5 : Secret prestige added\nv0.4 : Progress bar added\nv0.3 : Zlsa DLC added\nv0.2 : Auto click added\nv0.1 : Initial release</string>
+
+    <!-- Buttons -->
     <string name="increment">Increment</string>
     <string name="auto_click_off">Auto Click OFF</string>
     <string name="auto_click_on">Auto Click ON</string>
     <string name="quit">Quit</string>
-    <string name="changelog_text">v0.2 : Auto click added\nv0.1 : Initial release</string>
 
+    <!-- Dialog Box -->
     <string name="quit_message">Woah woah woah, what\'s that quit button doing there? You can\'t quit incremental games ! -1 point.</string>
     <string name="quit_title">Quit?!</string>
     <string name="ok">OK</string>
+
+    <!-- Other Messages -->
+    <string name="zlsa_text">You win the Zlsa DLC ! Increment value * 2</string>
+    <string name="secret_prestige_text">Secret prestige ! Congratulation, you are smart and I love you &lt;3</string>
+    <string name="meow">Meow !</string>
+    <string name="click_twice_text">Click twice and increment once.</string>
 
 </resources>
