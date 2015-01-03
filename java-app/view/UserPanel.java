@@ -41,7 +41,7 @@ public class UserPanel extends JPanel {
 	
 	// others
 	private Player player;
-	private AutoIncrementer incrementer;
+	protected AutoIncrementer incrementer;
 	private JLabel score;
 
 	public UserPanel(Player player) {
