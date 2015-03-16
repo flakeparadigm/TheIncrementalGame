@@ -31,3 +31,5 @@ v0.3 : Zlsa DLC added
 v0.2 : Auto click added
 v0.1 : Initial release (click to increment)
 ```
+
+![TheIncrementalGame - Screenshot](https://raw.githubusercontent.com/flakeparadigm/TheIncrementalGame/master/screenshot.png)
